@@ -1,0 +1,24 @@
+header {
+    color: darkblue;
+    text-align: center;
+}
+
+.pop-hobbies {
+    display: flex;
+    flex-flow: row wrap;
+    height: 50vh;
+    justify-content: space-evenly;
+}
+
+.pop-hobbies-item {
+    display: inline-block;
+    width: 25%;
+    height: 15%;
+    border: 5px solid rgb(127, 114, 211);
+    border-radius: 3px;
+    margin: 5px
+}
+
+.pop-hobbies-item h3 {
+    text-align: center;
+}

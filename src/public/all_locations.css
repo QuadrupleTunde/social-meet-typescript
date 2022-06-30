@@ -1,0 +1,26 @@
+header {
+    color: darkblue;
+    text-align: center;
+}
+
+.locations-list {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.location-card {
+    border: 5px solid rgb(197, 134, 224);
+    margin: 10px;
+    list-style: none;
+}
+
+.location-card img {
+    border: 3px solid rgb(105, 105, 105);
+    border-radius: 20px;
+    margin: 10px;
+    
+}
+
+.location-card p {
+    text-align: center;
+}

@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  text-align: center;
+  font-size: 25px;
+  text-shadow: 0.5px 0.5px  blue;
+
+}
+.location{
+  text-align: center;
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5) ), url('https://images.pexels.com/photos/2051002/pexels-photo-2051002.jpeg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh
+}
+.hobbies{
+  text-align: center;
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5) ), url('https://images.pexels.com/photos/599459/pexels-photo-599459.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh
+}
+
+.display{
+  font-size: 20px;
+  height: 75%;
+}
+.home{
+  text-align: center;
+  background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url('https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  -webkit-mask-image: url("https://i.imgur.com/SV9HTHs.png");
+  mask-position: center;
+}
+.event {
+  text-align: center;
+  background: rgb(255,210,113);
+  background: linear-gradient(0deg, rgba(255,210,113,1) 0%, rgba(80,200,231,1) 100%);
+  background-size: cover;
+}
+
+
+/* NAV BAR STYLING */
+.App nav {
+  background-color: rgb(170, 219, 250);
+  padding: 10px;
+}
+
+.App nav ul {
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 2px 2px 2px 2px blue;
+}
+
+.App nav li {
+  display: inline;
+}
